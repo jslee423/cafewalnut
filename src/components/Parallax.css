@@ -1,0 +1,26 @@
+#parallax-container .parallax {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#parallax-container .parallax-one {
+    background-image: url('../assets/images/dalgona.JPG');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainSection {
+    min-height: 100vh;
+    background-color: #f7efda;
+}

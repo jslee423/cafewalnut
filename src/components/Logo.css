@@ -1,0 +1,36 @@
+.logo {
+    display: flex;
+    flex-direction: row;
+}
+
+.logoLeft {
+    height: 180px;
+    width: 90px;
+    background-color: #fafafa;
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-right: 12px;
+}
+
+.logoRightTop {
+    height: 84px;
+    width: 90px;
+    background-color: #fafafa;
+    border-top-right-radius: 60px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-bottom: 12px;
+}
+
+.logoRightBot {
+    height: 84px;
+    width: 90px;
+    background-color: #fafafa;
+    border-bottom-right-radius: 60px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
